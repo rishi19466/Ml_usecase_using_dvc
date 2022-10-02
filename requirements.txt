@@ -1,3 +1,7 @@
 numpy
 dvc
 pandas
+
+# for local packages
+
+-e .

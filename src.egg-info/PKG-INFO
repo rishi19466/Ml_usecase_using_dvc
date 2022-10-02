@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package for dvc ml pipeline demo
+Home-page: https://github.com/rishi19466/Ml_usecase_using_dvc
+Author: Rishi
+Author-email: abc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
