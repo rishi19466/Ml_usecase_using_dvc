@@ -8,13 +8,8 @@ from src.utils.all_utils import read_yaml, create_directory
 def get_data(config_path):
     config = read_yaml(config_path)
     data_path = config['data_source']
-    raw_local_dir = config['artifacts']['raw_local_dir']
-    raw_local_file_path = config['artifacts']['raw_local_file']
-    # raw_local_file_path = os.path.join(raw_local_dir,raw_local_file)
-    #
+
     df = pd.read_csv(data_path, sep=';')
-    # print(data.head())
-    # data.to_csv(raw_local_file_path, sep =",", index = False)
 
 # save dataset in the local directory
 # Create path for directorty
